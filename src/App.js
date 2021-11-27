@@ -9,9 +9,9 @@ import SigninPage from './pages/signin';
 function App() {
   return (
     <Router>
-      <Home />
         <Routes>
-        <Route path="/signin" component = {SigninPage} exact />
+        <Route path="/" element = {<Home/>} exact />
+        <Route path="/signin" element = {<SigninPage />} exact />
       </Routes>
     </Router>
   );

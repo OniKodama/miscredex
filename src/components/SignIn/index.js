@@ -6,7 +6,7 @@ const SignIn = () => {
         <>
         <Container>
             <FormWrap>
-                <Icon to = "/">miscredex</Icon>
+                <Icon to = "/">Miscredex</Icon>
                 <FormContent>
                     <Form action = "#">
                         <FormH1>Sign in to your account</FormH1>
@@ -20,7 +20,6 @@ const SignIn = () => {
                 </FormContent>
             </FormWrap>
         </Container>
-            
         </>
     )
 }
